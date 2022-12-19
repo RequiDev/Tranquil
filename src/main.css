@@ -28,6 +28,30 @@ Registered: Black Box Theme
   --shadow: rgba(0, 0, 0, 0.4);
 }
 
+#app-mount
+  div.avatarPositionPremiumBanner-2nq2Fy
+  .wrapper-1VLyxH[style*="height: 80px"]
+  rect[mask*="svg-mask-status"],
+#app-mount
+  div.avatarPositionPremiumBanner-2nq2Fy
+  .wrapper-1VLyxH[style*="height: 80px"]
+  foreignobject
+  + svg
+  rect
+  #app-mount
+  div.avatarPositionPremiumNoBanner-nWzERs
+  .wrapper-1VLyxH[style*="height: 80px"]
+  rect[mask*="svg-mask-status"],
+#app-mount
+  div.avatarPositionPremiumNoBanner-nWzERs
+  .wrapper-1VLyxH[style*="height: 80px"]
+  foreignobject
+  + svg
+  rect {
+  height: 16px !important;
+  width: 16px !important;
+}
+
 .userProfileOuterThemed-3EfHmv.userPopoutOuter-3AVBmJ,
 .userProfileOuterThemed-3EfHmv.userProfileOuter-1K_BYU {
   padding: 0px;
