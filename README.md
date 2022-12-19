@@ -1,11 +1,6 @@
-# Replugged theme template
-
-[Use this template](https://github.com/replugged-org/theme-template/generate)
+# Tranquil theme for Replugged
 
 ## Prerequisites
-
-- NodeJS
-- pnpm: `npm i -g pnpm`
 - [Replugged](https://github.com/replugged-org/replugged#installation)
 
 ## Install
@@ -16,43 +11,10 @@
 4. Build the theme: `pnpm run build`
 5. Reload Discord to load the theme
 
-The unmodified theme replaces the Discord font with the old Whitney font. Credit to
-[@overimagine1](https://github.com/Overimagine1/old-discord-font) for the snippet!
-
-## Development
-
-The code must be rebuilt after every change. You can use `pnpm run watch` to automatically rebuild
-the theme when you save a file.
-
-Building using the script above will automatically install the updated version of the theme in
-Replugged. You can find the theme folder directories for your OS
-[here](https://github.com/replugged-org/replugged#installing-plugins-and-themes).  
-If you don't want to install the updated version, append the `--no-install` flag:
-`pnpm run build --no-install`.
-
-You can format the code by running `pnpm run lint:fix`. The repository includes VSCode settings to
-automatically format on save.
-
-API docs coming soon(tm)
-
 ## Distribution
 
 For theme distribution, Replugged uses bundled `.asar` files. Bundled themes can be installed to the
 same theme folder as listed above.
-
-This repository includes a GitHub workflow to compile and publish a release with the asar file. To
-trigger it, create a tag with the version number preceded by a `v` (e.g. `v1.0.0`) and push it to
-GitHub:
-
-```sh
-git tag v1.0.0
-git push --tags
-```
-
-The Replugged updater (coming soon™) will automatically check for updates on the repository
-specified in the manifest. Make sure to update it to point to the correct repository!
-
-You can manually compile the asar file with `pnpm run build-and-bundle`.
 
 ## Troubleshooting
 
@@ -69,3 +31,97 @@ for your OS and make sure the theme is there. If not, make sure you have built t
 the `NO_INSTALL` environment variable is not set.  
 You can run `replugged.themes.list().then(console.log)` in the console to see a list of themes in
 the theme folder.
+
+## Original README
+
+# Monster Themes
+Need help with the themes? Visit the [Black Box](https://discord.gg/TeRQEPb).
+
+The Phoenix Bundle are forks of old themes that have ceased to be supported. Because I have been maintaining them for a year and have rewritten them to be more readable and efficient, I have renamed them and claimed them as my own.
+
+The code itself is loads different but the output does still look the same.
+
+Black Hole is an original theme that is easier to maintain.
+
+All themes will be hopefully ported to BDv2 soon.
+
+## Table of Contents
+1. [Copyright and License](#copyright-and-license)
+   
+    + [Terms Used](#terms-used)
+    + [Introduction](#introduction)
+    + [Allowed Actions](#allowed)
+    + [Disallowed Actions](#disallowed)
+
+2. [Themes](#all-themes)
+
+    + [Phoenix Bundle](#phoenix-bundle)
+  
+        + [Tranquil](#tranquil)
+        + [Reborn](#reborn)
+
+    + [Black Hole](#black-hole)
+
+## Copyright and License
+### Terms Used
+- Elle ("Author", "Coder", "Ellexide", "EllexideCodes", "Monster", "Monster Dev", "Innate Monster", "I", "She", "Her")
+- Content ("Themes", "product", "items", "codes", "assets")
+- User ("You", "User", "they", "them", "their")
+
+### Introduction
+The author, Monster, reserves the right to all content found in this repository. They are intellectual property and will remain as such indefinitely. If any one person decides to use--even any portion--of a code, they agree to be bound by the rules set by Monster.
+
+Monster reserves the right to ask any of her work to be taken down should they be used, distributed, or reverse-engineered in a way she does not consent to.
+
+To contact Monster Dev:
+
++ Discord: Monstrum#3557 (402272736665272320)
++ E-Mail: ellexidecodes@gmail.com
+
+### Allowed
+#### Users are permitted...
+- ... to take and build from any of the two themes inside the **Phoenix Bundle ONLY.** They may redistribute them *as long as they have edited enough for it to be basically a different code.*
+- ... to edit the given variables in each theme inside this repository.
+- ... to add additional code into any theme as long as they are not redistributed as their own.
+- ... to study the codes and how they are built for educational purposes.
+- ... to reverse engineer the codes in any way they want as long as they do not distribute the broken bits and pieces as their own.
+- ... to take snippets of the code to use as long as they give due credit.
+- ... to edit the contents of the *.theme.css file (including the Meta) **as long as they do not redistribute this version**.
+
+### Disallowed
+#### Users are forbidden...
+- ... from building off of themes **outside** of the Phoenix Bundle.
+- ... from redistributing the code, edited or otherwise, in any platform that Monster does not allow.
+- ... from distributing an edited version of any code without explicit permission from the author.
+- ... from copying and using more than 50 lines of code (in the spacing as shown in the original files) in a different theme or code without giving due credit.
+- ... from **selling** or making money off of any theme that is present in this repository and any theme made by Monster.
+
+**All these terms apply to all files in this repository as well as the last few remaning files in the EllexideCodes/Discord-Themes repository.**
+
+Copyright © 2019 - Present, Monster Dev
+
+*Do not redistribute*
+
+
+## All Themes
+### Phoenix Bundle
+[![Tranquil](https://i.imgur.com/ipOmRMV.jpg)](#tranquil)
+[![Reborn](https://i.imgur.com/FRZxEig.png)](#reborn)
+
+### Original Themes
+[![Black Hole](https://i.imgur.com/UgUXLan.jpg)](#black-hole)
+
+## Tranquil
+![Chat](https://i.imgur.com/4EvvDc8.png)
+![User Settings](https://i.imgur.com/b0l0uir.png)
+![Upload Modal](https://i.imgur.com/O8gNXd9.png)
+
+## Reborn
+![Chat](https://i.imgur.com/09CcRBF.jpg)
+![User Settings](https://i.imgur.com/sVBauqL.jpg)
+![Upload Modal](https://i.imgur.com/cEQaiew.png)
+
+## Black Hole
+![Chat](https://i.imgur.com/sLnMnBp.png)
+![User Settings](https://i.imgur.com/s41A0Ux.png)
+![Upload Modal](https://i.imgur.com/L8JamP6.png)
