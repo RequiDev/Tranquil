@@ -22,8 +22,8 @@ Registered: Black Box Theme
 */
 :root {
   --roundness: 0px;
-  --main-color: #0051ff;
-  --hover-color: #0000ff;
+  --main-color: #d000ff;
+  --hover-color: #ff00ff;
   --home-color: #eee;
   --shadow: rgba(0, 0, 0, 0.4);
 }
