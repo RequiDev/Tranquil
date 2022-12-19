@@ -28,6 +28,24 @@ Registered: Black Box Theme
   --shadow: rgba(0, 0, 0, 0.4);
 }
 
+.userProfileOuterThemed-3EfHmv.userPopoutOuter-3AVBmJ,
+.userProfileOuterThemed-3EfHmv.userProfileOuter-1K_BYU {
+  padding: 0px;
+}
+[style*="opacity: 0.45;"] {
+  display: none;
+}
+
+[role="list"] > div {
+  background-color: transparent;
+}
+
+#app-mount .wrapper-1VLyxH[style*="height: 120px"] rect[mask*="svg-mask-status"],
+#app-mount .wrapper-1VLyxH[style*="height: 120px"] foreignobject + svg rect {
+  height: 24px !important;
+  width: 24px !important;
+}
+
 /*
 ---------------------------------------------------------------------------------------------------------------------------------------------
 TROUBLESHOOTING: IF YOU NEED ANY HELP GO TO https://discord.gg/TeRQEPb
