@@ -1,16 +1,16 @@
 {
-  "id": "dev.replugged.ThemeTemplate",
-  "name": "Theme Template",
-  "description": "A theme template",
+  "id": "dev.replugged.Tranquil",
+  "name": "Tranquil",
+  "description": "Tranquil theme",
   "author": {
-    "name": "replugged",
-    "discordID": "1000992611840049192",
-    "github": "replugged-org"
+    "name": "The Monster",
+    "discordID": "402272736665272320",
+    "github": "monstrousdev"
   },
-  "version": "1.0.2",
+  "version": "2.0.1",
   "updater": {
     "type": "github",
-    "id": "replugged-org/theme-template"
+    "id": "RequiDev/Tranquil"
   },
   "license": "MIT",
   "type": "replugged-theme",
