@@ -1,18 +1,18 @@
 {
-  "id": "dev.requi.Tranquil",
+  "id": "dev.monstrousdev.Tranquil",
   "name": "Tranquil",
-  "description": "Tranquil theme",
+  "description": "Primarily a dark theme that's easy on the eyes and minimalist in nature. it also supports light theme which is less easy on the eyes.",
   "author": {
     "name": "The Monster",
     "discordID": "402272736665272320",
     "github": "monstrousdev"
   },
-  "version": "2.0.1",
+  "version": "2.0.2",
   "updater": {
     "type": "github",
     "id": "RequiDev/Tranquil"
   },
-  "license": "MIT",
+  "license": "Attribution-NonCommercial-ShareAlike CC BY-NC-SA",
   "type": "replugged-theme",
   "main": "src/main.css"
 }
