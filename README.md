@@ -1,49 +1,5 @@
 # Tranquil theme for Replugged
-
-## Prerequisites
-- [Replugged](https://github.com/replugged-org/replugged#installation)
-
-## Install
-
-1. [Create a copy of this template](https://github.com/replugged-org/theme-template/generate)
-2. Clone your new repository and cd into it
-3. Install dependencies: `pnpm i`
-4. Build the theme: `pnpm run build`
-5. Reload Discord to load the theme
-
-## Distribution
-
-For theme distribution, Replugged uses bundled `.asar` files. Bundled themes can be installed to the
-same theme folder as listed above.
-
-## Troubleshooting
-
-### Make sure Replugged is installed and running.
-
-Open Discord settings and make sure the Replugged tab is there. If not,
-[follow these instructions](https://github.com/replugged-org/replugged#installation) to install
-Replugged.
-
-### Make sure the theme is installed.
-
-Check the [theme folder](https://github.com/replugged-org/replugged#installing-plugins-and-themes)
-for your OS and make sure the theme is there. If not, make sure you have built the theme and that
-the `NO_INSTALL` environment variable is not set.  
-You can run `replugged.themes.list().then(console.log)` in the console to see a list of themes in
-the theme folder.
-
-## Original README
-
-# Monster Themes
 Need help with the themes? Visit the [Black Box](https://discord.gg/TeRQEPb).
-
-The Phoenix Bundle are forks of old themes that have ceased to be supported. Because I have been maintaining them for a year and have rewritten them to be more readable and efficient, I have renamed them and claimed them as my own.
-
-The code itself is loads different but the output does still look the same.
-
-Black Hole is an original theme that is easier to maintain.
-
-All themes will be hopefully ported to BDv2 soon.
 
 ## Table of Contents
 1. [Copyright and License](#copyright-and-license)
@@ -52,15 +8,6 @@ All themes will be hopefully ported to BDv2 soon.
     + [Introduction](#introduction)
     + [Allowed Actions](#allowed)
     + [Disallowed Actions](#disallowed)
-
-2. [Themes](#all-themes)
-
-    + [Phoenix Bundle](#phoenix-bundle)
-  
-        + [Tranquil](#tranquil)
-        + [Reborn](#reborn)
-
-    + [Black Hole](#black-hole)
 
 ## Copyright and License
 ### Terms Used
@@ -102,26 +49,9 @@ Copyright © 2019 - Present, Monster Dev
 
 *Do not redistribute*
 
-
-## All Themes
-### Phoenix Bundle
 [![Tranquil](https://i.imgur.com/ipOmRMV.jpg)](#tranquil)
-[![Reborn](https://i.imgur.com/FRZxEig.png)](#reborn)
-
-### Original Themes
-[![Black Hole](https://i.imgur.com/UgUXLan.jpg)](#black-hole)
 
 ## Tranquil
 ![Chat](https://i.imgur.com/4EvvDc8.png)
 ![User Settings](https://i.imgur.com/b0l0uir.png)
 ![Upload Modal](https://i.imgur.com/O8gNXd9.png)
-
-## Reborn
-![Chat](https://i.imgur.com/09CcRBF.jpg)
-![User Settings](https://i.imgur.com/sVBauqL.jpg)
-![Upload Modal](https://i.imgur.com/cEQaiew.png)
-
-## Black Hole
-![Chat](https://i.imgur.com/sLnMnBp.png)
-![User Settings](https://i.imgur.com/s41A0Ux.png)
-![Upload Modal](https://i.imgur.com/L8JamP6.png)
